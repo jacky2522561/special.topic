@@ -344,7 +344,154 @@ h1{
 }
 /* copyright end*/
 
+
 /* rwd */
 
+@media (max-width: 500px){
+    .wrapper{
+        margin: 0px 30px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .nav-title{
+        font-size: 22px;
+        font-weight: bold;
+        padding: 0.05em 0.05em;
+        margin: 2.5em 0.5em 0.9em 1.2em;
+        line-height: 20px;
+    }
+    .bar{
+        width: 100%;
+        margin: 1px;
+        padding-top: 10px;
+        border-bottom: solid 2px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .main .pic{
+        margin: 20px 0px;
+        margin-left: 0px;
+    }
+    .pic svg{
+        width: 100%;
+        height: 500px;
+    }
+    .main .intro,h1{
+        width: 100%;
+        margin-top: 10px;
+        font-size: 25px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .topic-head{
+        padding-top: 55px;
+        font-size: 35px;
+    }
+    .tpic svg{
+        height: 250px;
+        width: 100%;
+    }
+    .tintro p{
+        font-size: 15px;
+    }
+
+    .outline-head{
+        padding-top: 55px;
+        font-size: 35px;
+    }
+    
+    .outline{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0px;
+        
+    }
+    
+    .outline .statement{
+        padding: 0px 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    .outline .title{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+    .outline .content{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    
+    .outline .part:first-child{
+        margin-top: 50px;
+    }
+    
+    .outline .part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 130px;
+    }
+    
+    .outline img{
+        width: 320px;
+    }
+
+    .teammate-head{
+        padding-top: 55px;
+        font-size: 35px;
+    }
+    
+    .teammate{
+        margin-top: 50px;
+        padding-bottom: 60px;
+        padding: 0px;
+        margin-bottom: 100px;
+    }
+    
+    .teammate .member{
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .teammate .statement{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .teammate img{
+        width: 250px;
+        border-radius: 30px;
+    }
+    
+    .teammate .worker-name{
+        font-size: 30px;
+    }
+    
+    .teammate .AKA{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold
+    }
+    
+    .teammate .job{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    
+}
 /* rwd end */
 
+  
