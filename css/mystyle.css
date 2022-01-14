@@ -7,6 +7,7 @@
 .wrapper{
     display: flex;
     flex-wrap: wrap;
+    margin: 0px 100px;
 }
 
 h1{
@@ -41,7 +42,7 @@ h1{
 .bar{
     width: 65%;
     margin: 2px 15px;
-    padding-top: 80px;
+    padding-top: 10px;
     border-bottom: solid 3px;
     float: left;
 }
@@ -126,6 +127,7 @@ h1{
 
 .topic{
     margin-top: 50px;
+    padding-bottom: 60px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -220,7 +222,8 @@ h1{
 .outline{
     width: 100%;
     margin-top: 100px;
-    padding: 0 200px;
+    padding-bottom: 60px;
+    padding: 0 100px;
     display: flex;
     flex-direction: column;
 }
@@ -252,7 +255,96 @@ h1{
 
 .outline img{
     width: 400px;
-    
 }
 
 /* outline end */
+
+/* teammate */
+
+.teammate-head{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+}
+
+.teammate{
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 60px;
+    padding: 0 350px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.teammate .member{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+}
+.teammate .member:first-child{
+    margin-top: 50px;
+}
+
+.teammate .statement{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.teammate img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.teammate .worker-name{
+    font-size: 40px;
+}
+
+.teammate .AKA{
+    font-size: 20px;
+    font-weight: bold
+}
+
+.teammate .job{
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+/* teammate end */
+
+/* endbar */
+.endbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.endbar .far{
+    font-size: 50px;
+    transition: all 0.3s;
+}
+
+.endbar .far:hover{
+    color: coral;
+    transform: scale(1.4);
+}
+/* endbar end */
+
+
+/* copyright */
+
+#copyright{
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* copyright end*/
+
+/* rwd */
+
+/* rwd end */
+

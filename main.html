@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css    "
+    />
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Signika:wght@300&display=swap" rel="stylesheet">
     <!-- css -->
@@ -70,7 +74,7 @@
         <div class="topic">
             <div class="tpic">
                 <svg version="1.1" class="topic-pic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                width="1500px" height="500px"
+                width="1500px" height="400px"
 	            viewBox="0 0 1920 500" style="enable-background:new 0 0 1920 500;" xml:space="preserve">
                 <g>
 	                <ellipse class="ste0" cx="407.72" cy="250.49" rx="172" ry="112"/>
@@ -155,7 +159,7 @@
             </div>
 
             <div class="part">
-                <img src="./svg/NFT.jpg" alt="">
+                <img src="./svg/NFT.png" alt="">
                 <div class="statement">
                     <h1 class="title">NFT</h1>
                     <p class="content">We will roll out our NFT, if you buy it you can't only show your 
@@ -163,6 +167,95 @@
                 </div>
             </div>
 
+        </div>
+
+        <!-- teammate -->
+        <div class="teammate-head" id="myteammate">
+            <div><p>Teammate</p></div>
+        </div>
+        <div class="teammate">
+            <div class="member">
+                <img src="./svg/辛.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">辛介宇</h1>
+                    <P class="AKA">Jacky</P>
+                    <P class="job">Co-Founder Development、平台前後端開發、區塊鍊、stuff...</P>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./svg/德.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">李昱德</h1>
+                    <P class="AKA">Derek</P>
+                    <P class="job">社群、美編</P>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./svg/仇.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">黃仲毅</h1>
+                    <P class="AKA">仇女</P>
+                    <P class="job">平台擴充功能構思</P>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./svg/G.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">陳彥伯</h1>
+                    <P class="AKA">Gibson</P>
+                    <P class="job">板塊(著色)設計</P>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./svg/K.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">康學承</h1>
+                    <P class="AKA">K</P>
+                    <P class="job">買便當、當渣男、分手</P>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./svg/許.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">許斯維</h1>
+                    <P class="AKA">Wei</P>
+                    <P class="job">Co-Founder Director、NFT概念設計、NFT項目主理人</P>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./svg/R.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">葉如時</h1>
+                    <P class="AKA">Rus</P>
+                    <P class="job">PM、英文、文案主理人</P>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./svg/丁.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">丁詠淇</h1>
+                    <P class="AKA">Tzui</P>
+                    <P class="job">Marketing</P>
+                </div>
+            </div>
+            <div class="member">
+                <img src="./svg/黃.jpg" alt="">
+                <div class="statement">
+                    <h1 class="worker-name">黃吳若君</h1>
+                    <P class="AKA">Wuruo</P>
+                    <P class="job">Marketing</P>
+                </div>
+            </div>
+        </div>
+
+        <!-- endbar -->
+        <div class="endbar">
+            <a id="to-top"><i class="far fa-arrow-alt-circle-up"></i></a>
+        </div>
+
+        <!-- copyright -->
+        <div id="copyright">
+            <p>Copyright © 2022 jacky2522561 All rights reserved.</p>
         </div>
 
     </div>
@@ -190,10 +283,23 @@
                  $('html,body').animate({scrollTop:$('#myoutline').offset().top},1200)
              });
  
-             $('#to-work').click(function(){
-                 $('html,body').animate({scrollTop:$('#mywork').offset().top},1200)
+             $('#to-teammate').click(function(){
+                 $('html,body').animate({scrollTop:$('#myteammate').offset().top},1200)
              });
          })
+     </script>
+     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+     <script>
+        const options = {
+            label: '⚪', // default: ''
+        }
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+        }
+       window.addEventListener('load', addDarkmodeWidget);
      </script>
 </body>
 </html>
