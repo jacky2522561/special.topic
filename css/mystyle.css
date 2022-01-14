@@ -328,7 +328,7 @@ h1{
     border-radius: 100px;
     position: fixed;
     right: 29px;
-    bottom: 10%;
+    bottom: 20%;
     font-size: 50px;
     transition: all 0.3s;
 }
@@ -501,7 +501,8 @@ h1{
     }
 
     #copyright{
-        font-size: 3px;
+        padding: 30px 0px;
+        font-size: 9px;
     }
     
 }
